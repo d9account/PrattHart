@@ -102,9 +102,7 @@ a {text-decoration: none;}
 .contact-wrapper .contact-phone span{ font-size:12px;}
 .contact-wrapper .contact-address {padding-top:10px; padding-bottom: 10px;}
 
-
-
-.hero{
+.hero {
 	background-image: url(../images/hero.jpg);
 	background-repeat: no-repeat;
 	width:960px;
@@ -122,6 +120,11 @@ a {text-decoration: none;}
 	background-image: url(../images/mens_normal.jpg);
 	width:320px;
 	height:450px;
+}
+
+.main-category .mens:hover {
+	background-image: url(../images/mens_over.jpg);
+	
 }
 
 .main-category .middle {
