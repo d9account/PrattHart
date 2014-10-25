@@ -1,3 +1,147 @@
 /* CSS FOR PART AND HART */
 
+body, html {margin:0; padding:0;}
+
+body {background-color: #968c7a;}
+
+a {text-decoration: none;}
+@font-face {
+	font-family: 'JoBold';
+    src: url(google-fonts/JosefinSlab-Bold.ttf);
+}
+
+.main-wrapper {
+	position: relative;
+}
+
+.header {
+	background-color: #ffffff;
+	height: 224px;
+	padding-top:10px;
+}
+
+.logo-wrapper {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	width:211px;
+	height:156px;
+	position: relative;
+	left:50%;
+	margin-left:-105.5px;
+
+}
+
+.menu-wrapper {
+
+	text-align: center;
+	margin-top:20px;
+
+}
+
+.menu-wrapper a {
+
+	font-family: 'JoBold';
+	font-size:21px;
+	color:#968c7a;
+	margin-right:10px;
+	text-decoration: none;
+}
+
+.content {
+	width:960px;
+	position: relative;
+	left:50%;
+	margin-left: -480px;
+	min-height: 150px;
+}
+
+.footer {
+	width:960px;
+	position: relative;
+	left:50%;
+	margin-left: -480px;
+	min-height: 150px;
+	background-color: #696255;
+	
+}
+
+.footer.full {
+	width:100%;
+	left:0;
+	margin:0;
+
+}
+
+.footer .logo-wrapper {
+	background-image: url(../images/dark-logo.png);
+	width:146px;
+	height:99px;
+	margin-left:-73px;
+
+}
+
+.footer .menu-wrapper a {
+	text-align: center;
+	margin-top:20px;
+	color:#c5c0b4;
+
+}
+
+.spacer {height:10px;}
+.clear {clear:both;}
+
+.contact-wrapper {
+	margin-top:15px;
+	text-align: center;	
+	color:#c5c0b4;
+	font-size:12px;
+}
+
+
+.contact-wrapper .contact-phone { font-size:14px;}
+.contact-wrapper .contact-phone span{ font-size:12px;}
+.contact-wrapper .contact-address {padding-top:10px; padding-bottom: 10px;}
+
+
+
+.hero{
+	background-image: url(../images/hero.jpg);
+	background-repeat: no-repeat;
+	width:960px;
+	height:390px;
+	position: relative;
+}
+
+.main-category {position: relative;}
+.main-category div {
+	float:left;
+	text-align: center;
+}
+
+.main-category .mens {
+	background-image: url(../images/mens_normal.jpg);
+	width:320px;
+	height:450px;
+}
+
+.main-category .middle {
+	background-image: url(../images/mens-text.jpg);
+	width:320px;
+	height:450px;
+}
+.main-category .womens {
+	background-image: url(../images/womens_normal.jpg);
+	width:320px;
+	height:450px;
+
+}
+
+.main-category a {
+	color:#fff;
+	font-size:27px;
+	position: relative;
+	top:420px;
+
+}
+
 
