@@ -424,8 +424,9 @@ a {
 }
 
 .nav-link {
-    position: relative;
+    position: absolute;
     cursor: pointer;
     height:27px;
     width:75px;
 }
+
