@@ -92,6 +92,7 @@ a {text-decoration: none;}
 
 .category-wrapper {
 	width:960px;
+
 }
 
 .cat-image {
@@ -105,7 +106,7 @@ a {text-decoration: none;}
 	float:left;
 	width:440px;
 	background-color: #696355;
-
+	height:600px;
 }
 
 .cat-logo {
@@ -123,23 +124,59 @@ a {text-decoration: none;}
 
 
 .cat-links-wrapper  {
-
+margin-bottom: 15px;
+margin-top:15px;
 
 }
 
 .cat-link {
-	width:290px;
-	height:94px;
-	float:left;
 	background-color: #696355;
-	margin-right:15px;
+    color: #fff;
+    float: left;
+    height: 80px;
+    margin-right: 15px;
+    padding: 15px;
+    text-align: center;
+    width: 275px;
 
 }
 
 .cat-link:last-child {
-	margin-right:0px;
+	margin-right:0px !important;
 }
 
 .cat-link-title {
+	font-size: 20px;
+    position: relative;
+    top: 20px;
+}
 
+
+.cat-link a {
+	 position: relative;
+    top: 20px;
+    color:#fff;
+
+}
+
+.cat-link a:visited {
+	color:#fff;
+}
+
+
+.contact-wrapper {
+    color: #c5c0b4;
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+}
+.contact-wrapper .contact-phone {
+    font-size: 14px;
+}
+.contact-wrapper .contact-phone span {
+    font-size: 12px;
+}
+.contact-wrapper .contact-address {
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
