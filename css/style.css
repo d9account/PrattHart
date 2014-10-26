@@ -421,5 +421,11 @@ a {
 	font-size: 19px;
 	position: relative;
     top: -2px;
+}
 
+.nav-link {
+    position: relative;
+    cursor: pointer;
+    height:27px;
+    width:75px;
 }
