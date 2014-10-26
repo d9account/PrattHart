@@ -1,0 +1,145 @@
+/* CSS FOR PART AND HART */
+
+body, html {margin:0; padding:0;}
+
+body {background-color: #968c7a;}
+
+a {text-decoration: none;}
+@font-face {
+	font-family: 'JoBold';
+    src: url(google-fonts/JosefinSlab-Bold.ttf);
+}
+
+.main-wrapper {
+	position: relative;
+}
+
+.header {
+	background-color: #ffffff;
+	height: 224px;
+	padding-top:10px;
+}
+
+.logo-wrapper {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	width:211px;
+	height:156px;
+	position: relative;
+	left:50%;
+	margin-left:-105.5px;
+
+}
+
+.menu-wrapper {
+
+	text-align: center;
+	margin-top:20px;
+
+}
+
+.menu-wrapper a {
+
+	font-family: 'JoBold';
+	font-size:21px;
+	color:#968c7a;
+	margin-right:10px;
+	text-decoration: none;
+}
+
+.content {
+	width:960px;
+	position: relative;
+	left:50%;
+	margin-left: -480px;
+	min-height: 150px;
+}
+
+.footer {
+	width:960px;
+	position: relative;
+	left:50%;
+	margin-left: -480px;
+	min-height: 150px;
+	background-color: #696255;
+	
+}
+
+.footer.full {
+	width:100%;
+	left:0;
+	margin:0;
+
+}
+
+.footer .logo-wrapper {
+	background-image: url(../images/dark-logo.png);
+	width:146px;
+	height:99px;
+	margin-left:-73px;
+
+}
+
+.footer .menu-wrapper a {
+	text-align: center;
+	margin-top:20px;
+	color:#c5c0b4;
+
+}
+
+.spacer {height:10px;}
+.clear {clear:both;}
+
+.category-wrapper {
+	width:960px;
+}
+
+.cat-image {
+	float:left;
+	width:519px;
+	height:600px;
+	background-image: url(../images/mens-cat.jpg);
+}
+
+.cat-info-wrapper {
+	float:left;
+	width:440px;
+	background-color: #696355;
+
+}
+
+.cat-logo {
+}
+.cat-header {
+}
+.line-spacer {
+
+}
+
+.cat-info {
+
+
+}
+
+
+.cat-links-wrapper  {
+
+
+}
+
+.cat-link {
+	width:290px;
+	height:94px;
+	float:left;
+	background-color: #696355;
+	margin-right:15px;
+
+}
+
+.cat-link:last-child {
+	margin-right:0px;
+}
+
+.cat-link-title {
+
+}
