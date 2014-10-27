@@ -1,150 +1,356 @@
-/* CSS FOR PART AND HART */
 
-body, html {margin:0; padding:0;}
-
-body {background-color: #968c7a;}
-
-a {text-decoration: none;}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #968c7a;
+}
+a {
+    text-decoration: none;
+}
 @font-face {
-	font-family: 'JoBold';
-    src: url(google-fonts/JosefinSlab-Bold.ttf);
+    font-family: "JoBold";
+    src: url("google-fonts/JosefinSlab-Bold.ttf");
 }
-
 .main-wrapper {
-	position: relative;
+    position: relative;
 }
-
 .header {
-	background-color: #ffffff;
-	height: 224px;
-	padding-top:10px;
+    background-color: #ffffff;
+    height: 224px;
+    padding-top: 10px;
 }
-
 .logo-wrapper {
-	background-image: url(../images/logo.png);
-	background-repeat: no-repeat;
-	width:211px;
-	height:156px;
-	position: relative;
-	left:50%;
-	margin-left:-105.5px;
-
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    height: 156px;
+    left: 50%;
+    margin-left: -105.5px;
+    position: relative;
+    width: 211px;
 }
-
 .menu-wrapper {
-
-	text-align: center;
-	margin-top:20px;
-
+    margin-top: 20px;
+    text-align: center;
 }
-
 .menu-wrapper a {
-
-	font-family: 'JoBold';
-	font-size:21px;
-	color:#968c7a;
-	margin-right:10px;
-	text-decoration: none;
+    color: #968c7a;
+    font-family: "JoBold";
+    font-size: 21px;
+    margin-right: 10px;
+    text-decoration: none;
 }
-
 .content {
-	width:960px;
-	position: relative;
-	left:50%;
-	margin-left: -480px;
-	min-height: 150px;
+    left: 50%;
+    margin-left: -480px;
+    min-height: 150px;
+    position: relative;
+    width: 960px;
 }
-
 .footer {
-	width:960px;
-	position: relative;
-	left:50%;
-	margin-left: -480px;
-	min-height: 150px;
-	background-color: #696255;
-	
+    background-color: #696255;
+    left: 50%;
+    margin-left: -480px;
+    min-height: 150px;
+    position: relative;
+    width: 960px;
 }
-
 .footer.full {
-	width:100%;
-	left:0;
-	margin:0;
-
+    left: 0;
+    margin: 0;
+    width: 100%;
 }
-
 .footer .logo-wrapper {
-	background-image: url(../images/dark-logo.png);
-	width:146px;
-	height:99px;
-	margin-left:-73px;
-
+    background-image: url("../images/dark-logo.png");
+    height: 99px;
+    margin-left: -73px;
+    width: 146px;
 }
-
 .footer .menu-wrapper a {
-	text-align: center;
-	margin-top:20px;
-	color:#c5c0b4;
-
+    color: #c5c0b4;
+    margin-top: 20px;
+    text-align: center;
 }
-
-.spacer {height:10px;}
-.clear {clear:both;}
-
+.spacer {
+    height: 10px;
+}
+.clear {
+    clear: both;
+}
 .contact-wrapper {
-	margin-top:15px;
-	text-align: center;	
-	color:#c5c0b4;
-	font-size:12px;
+    color: #c5c0b4;
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
 }
-
-
-.contact-wrapper .contact-phone { font-size:14px;}
-.contact-wrapper .contact-phone span{ font-size:12px;}
-.contact-wrapper .contact-address {padding-top:10px; padding-bottom: 10px;}
-
+.contact-wrapper .contact-phone {
+    font-size: 14px;
+}
+.contact-wrapper .contact-phone span {
+    font-size: 12px;
+}
+.contact-wrapper .contact-address {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
 .hero {
-	background-image: url(../images/hero.jpg);
-	background-repeat: no-repeat;
-	width:960px;
-	height:390px;
-	position: relative;
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    height: 390px;
+    position: relative;
+    width: 960px;
 }
-
-.main-category {position: relative;}
+.main-category {
+    position: relative;
+}
 .main-category div {
-	float:left;
-	text-align: center;
+    float: left;
+    text-align: center;
 }
-
 .main-category .mens {
-	background-image: url(../images/mens_normal.jpg);
-	width:320px;
-	height:450px;
+    background-image: url("../images/mens_normal.jpg");
+    height: 450px;
+    width: 320px;
 }
-
 .main-category .mens:hover {
-	background-image: url(../images/mens_over.jpg);
-	
+    background-image: url("../images/mens_over.jpg");
 }
-
 .main-category .middle {
-	background-image: url(../images/mens-text.jpg);
-	width:320px;
-	height:450px;
+    background-image: url("../images/mens-text.jpg");
+    height: 450px;
+    width: 320px;
 }
 .main-category .womens {
-	background-image: url(../images/womens_normal.jpg);
-	width:320px;
-	height:450px;
-
+    background-image: url("../images/womens_normal.jpg");
+    height: 450px;
+    width: 320px;
 }
-
+.main-category .womens:hover {
+    background-image: url("../images/womens_hover.jpg");
+}
 .main-category a {
-	color:#fff;
-	font-size:27px;
-	position: relative;
-	top:420px;
+    color: #fff;
+    font-size: 27px;
+    position: relative;
+    top: 420px;
+}
+.sub-category {
+    position: relative;
+}
+.sub-category div {
+    float: left;
+    text-align: center;
+}
+.sub-category .driving {
+    background-image: url("../images/driving-normal.jpg");
+    height: 320px;
+    width: 320px;
+}
+.sub-category .driving:hover {
+    background-image: url("../images/driving-over.jpg");
+}
+.sub-category .middle {
+    background-image: url("../images/winter-static.jpg");
+    height: 320px;
+    width: 320px;
+}
+.sub-category .winter {
+    background-image: url("../images/winter-normal.jpg");
+    height: 320px;
+    width: 320px;
+}
+.sub-category .winter:hover {
+    background-image: url("../images/winter-over.jpg");
+}
+.sub-category .winter div, .sub-category .driving div {
+    color: white;
+    font-size: 27px;
+    position: relative;
+    text-align: center;
+    top: 240px;
+    width: 100%;
+}
+.sub-category a {
+    color: #fff;
+    font-size: 27px;
+}
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #968c7a;
+}
+a {
+    text-decoration: none;
+}
+@font-face {
+    font-family: "JoBold";
+    src: url("google-fonts/JosefinSlab-Bold.ttf");
+}
+.main-wrapper {
+    position: relative;
+}
+.header {
+    background-color: #ffffff;
+    height: 224px;
+    padding-top: 10px;
+}
+.logo-wrapper {
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    height: 156px;
+    left: 50%;
+    margin-left: -105.5px;
+    position: relative;
+    width: 211px;
+}
+.menu-wrapper {
+    margin-top: 20px;
+    text-align: center;
+}
+.menu-wrapper a {
+    color: #968c7a;
+    font-family: "JoBold";
+    font-size: 21px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.content {
+    left: 50%;
+    margin-left: -480px;
+    min-height: 150px;
+    position: relative;
+    width: 960px;
+}
+.footer {
+    background-color: #696255;
+    left: 50%;
+    margin-left: -480px;
+    min-height: 150px;
+    position: relative;
+    width: 960px;
+}
+.footer.full {
+    left: 0;
+    margin: 0;
+    width: 100%;
+}
+.footer .logo-wrapper {
+    background-image: url("../images/dark-logo.png");
+    height: 99px;
+    margin-left: -73px;
+    width: 146px;
+}
+.footer .menu-wrapper a {
+    color: #c5c0b4;
+    margin-top: 20px;
+    text-align: center;
+}
+.spacer {
+    height: 10px;
+}
+.clear {
+    clear: both;
+}
+.contact-wrapper {
+    color: #c5c0b4;
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+}
+.contact-wrapper .contact-phone {
+    font-size: 14px;
+}
+.contact-wrapper .contact-phone span {
+    font-size: 12px;
+}
+.contact-wrapper .contact-address {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.hero {
+    background-image: url("../images/hero.jpg");
+    background-repeat: no-repeat;
+    height: 390px;
+    position: relative;
+    width: 960px;
+}
+.main-category {
+    position: relative;
+}
+.main-category div {
+    float: left;
+    text-align: center;
+}
+.main-category .mens {
+    background-image: url("../images/mens_normal.jpg");
+    height: 450px;
+    width: 320px;
+}
+.main-category .mens:hover {
+    background-image: url("../images/mens_over.jpg");
+}
+.main-category .middle {
+    background-image: url("../images/mens-text.jpg");
+    height: 450px;
+    width: 320px;
+}
+.main-category .womens {
+    background-image: url("../images/womens_normal.jpg");
+    height: 450px;
+    width: 320px;
+}
+.main-category .womens:hover {
+    background-image: url("../images/womens_hover.jpg");
+}
+.main-category a {
+    color: #fff;
+    font-size: 27px;
+    position: relative;
+    top: 405px;
+}
+.sub-category {
+    position: relative;
+}
+.sub-category div {
+    float: left;
+    text-align: center;
+}
+.sub-category .driving {
+    background-image: url("../images/driving-normal.jpg");
+    height: 320px;
+    width: 320px;
+}
+.sub-category .driving:hover {
+    background-image: url("../images/driving-over.jpg");
 }
 
 
+.sub-category .middle {
+    background-image: url("../images/winter-static.jpg");
+    height: 320px;
+    width: 320px;
+}
+.sub-category .winter {
+    background-image: url("../images/winter-normal.jpg");
+    height: 320px;
+    width: 320px;
+}
+.sub-category .winter:hover {
+    background-image: url("../images/winter-over.jpg");
+}
+.sub-category .winter div, .sub-category .driving div {
+    color: white;
+    font-size: 27px;
+    position: relative;
+    text-align: center;
+    top: 240px;
+    width: 100%;
+}
+.sub-category a {
+    color: #fff;
+    font-size: 27px;
+}
