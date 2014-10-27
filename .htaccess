@@ -1,0 +1,7 @@
+
+Options +FollowSymLinks
+
+ErrorDocument 404 /404.php
+
+RewriteEngine On
+RewriteRule ^(.+)\.html$ $1.php
