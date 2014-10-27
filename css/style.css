@@ -40,6 +40,7 @@ a {
     font-size: 21px;
     margin-right: 10px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 .content {
     left: 50%;
@@ -55,6 +56,7 @@ a {
     min-height: 150px;
     position: relative;
     width: 960px;
+
 }
 .footer.full {
     left: 0;
@@ -311,6 +313,7 @@ a {
     font-size: 27px;
     position: relative;
     top: 405px;
+    text-transform: uppercase;
 }
 .sub-category {
     position: relative;
@@ -349,10 +352,13 @@ a {
     text-align: center;
     top: 240px;
     width: 100%;
+    text-transform: uppercase;
 }
 .sub-category a {
     color: #fff;
-    font-size: 27px;
+    font-size: 19px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .small-ad {
@@ -402,8 +408,18 @@ a {
     text-align: center;
     top: 240px;
     width: 100%;
+    text-transform: uppercase;
 }
 .where-to-buy a {
     color: #fff;
-    font-size: 27px;
+    font-size: 19px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.where-to-buy .touchscreen span, .sub-category .winter span, .sub-category .driving span{
+	font-size: 19px;
+	position: relative;
+    top: -2px;
+
 }
