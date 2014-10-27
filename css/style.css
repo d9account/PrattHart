@@ -430,4 +430,24 @@ a {
     width:75px;
 }
 
+.small-ad .nav-link {
+	right: 210px;
+    top: 70px;
+    width: 105px;
 
+}
+
+.nav-link.retailer {
+	left: 360px;
+    top: 262px;
+    width: 125px;
+
+}
+
+.nav-link.shop {
+	left: 510px;
+    top: 260px;
+    width: 90px;
+
+
+}
