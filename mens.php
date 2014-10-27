@@ -2,10 +2,13 @@
     $CatPage = true; 
     $PageTitle = ' - Mens Gloves';
 ?>
+
 <?php include 'includes/pagetop_inc.php';?>
 
 <?php include 'includes/header_inc.php';?>
+
 <script type="text/javascript">var catPage = true;</script>
+
 <div class="content">
     
     <div class="category-wrapper">
@@ -43,4 +46,5 @@
 </div>
 
 <?php include 'includes/footer_inc.php';?>
+
 <?php include 'includes/pagebottom_inc.php';?>
