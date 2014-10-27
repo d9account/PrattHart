@@ -354,3 +354,56 @@ a {
     color: #fff;
     font-size: 27px;
 }
+
+.small-ad {
+    background-image: url("../images/tradition.jpg");
+    background-repeat: no-repeat;
+    height: 140px;
+    position: relative;
+    width: 100%;
+}
+
+/* BUY CSS */
+
+.where-to-buy {
+    position: relative;
+}
+.where-to-buy div {
+    float: left;
+    text-align: center;
+}
+.where-to-buy .touchscreen {
+    background-image: url("../images/touchscreen-normal.jpg");
+    height: 320px;
+    width: 320px;
+}
+.where-to-buy .touchscreen:hover {
+    background-image: url("../images/touchscreen-over.jpg");
+}
+
+
+.where-to-buy .middle-buy {
+    background-image: url("../images/middle-buy.jpg");
+    height: 320px;
+    width: 320px;
+}
+.where-to-buy .mittens {
+    background-image: url("../images/mittens-normal.jpg");
+    height: 320px;
+    width: 320px;
+}
+.where-to-buy .mittens:hover {
+    background-image: url("../images/mittens-over.jpg");
+}
+.where-to-buy .touchscreen div, .where-to-buy .mittens div {
+    color: white;
+    font-size: 27px;
+    position: relative;
+    text-align: center;
+    top: 240px;
+    width: 100%;
+}
+.where-to-buy a {
+    color: #fff;
+    font-size: 27px;
+}
