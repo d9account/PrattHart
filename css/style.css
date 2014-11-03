@@ -2,6 +2,8 @@
 body, html {
     margin: 0;
     padding: 0;
+    height:100%;
+    width: 100%;
 }
 body {
     background-color: #968c7a;
@@ -102,6 +104,7 @@ a {
     font-size:14px;
     font-family: 'Montserrat';
     font-weight: bold;
+    margin-right:27px;
 }
 
 .contact-wrapper {
@@ -169,6 +172,7 @@ a {
     text-transform: uppercase;
     top: 240px;
     width: 100%;
+    font-weight: 600;
 }
 .link-section a {
     color: #fff;
@@ -182,6 +186,12 @@ a {
     font-family: "Montserrat";
     font-size: 16px;
     position: relative;
+}
+
+.box-info-title {
+    height: 75px;
+    position: relative;
+    text-align: center;
 }
 
 .box-info {
@@ -243,6 +253,9 @@ a {
     position: relative;
     text-align: center;
     width: 280px;
+    background-image: url("../images/mens-text.jpg");
+    background-position: -10px -10px;
+
 }
 .middle .deer {
     left: 50%;
@@ -327,13 +340,16 @@ a {
     background-image: url("../images/touchscreen-over.jpg");
 }
 .where-to-buy .middle {
-     background-color: #968c7a;
+    /* background-color: #968c7a;
     border: 10px solid #c5c0b4;
     height: 280px;
     padding: 10px;
     position: relative;
     text-align: center;
-    width: 280px;
+    width: 280px;*/
+    background-image: url("../images/middle-buy.jpg");
+    height: 320px;
+    width: 320px;
 }
 .where-to-buy .mittens {
     background-image: url("../images/mittens-normal.jpg");
@@ -362,7 +378,21 @@ a {
     top: 70px;
     width: 105px;
 }
-
+.nav-link.retailer {
+left: 360px;
+top: 262px;
+width: 125px;
+}
+.nav-link.shop {
+left: 510px;
+top: 260px;
+width: 90px;
+}
+.nav-link.store {
+left: 360px;
+    top: 205px;
+    width: 240px;
+}
 /* CATEGORY RELATED CSS */
 
 .category-wrapper,.sub-category-wrapper {
@@ -407,6 +437,20 @@ a {
      background-image: url("../images/womens-mittens.jpg");
 }
 
+.cat-image.about {
+     background-image: url("../images/about-image.jpg");
+}
+
+.cat-image.contact {
+     background-image: url("../images/contact-image.jpg");
+}
+
+.cat-image.craftmanship {
+     background-image: url("../images/craftmanship-image.jpg");
+}
+
+
+
 
 .cat-info-wrapper {
    background-color: #696355;
@@ -446,8 +490,11 @@ a {
     padding: 15px;
     text-align: center;
     width: 280px;
+    cursor: pointer;
 }
-
+.cat-link:hover {
+    background-color: #897f6f;
+}
 .cat-link.right {
     margin-right: 0 !important;
 }
@@ -503,7 +550,7 @@ a {
 .static-wrapper {
  color: #c5c0b4;
     font-size: 14px;
-    padding: 20px;
+   
 
 }
 
@@ -592,30 +639,255 @@ a {
 
 }
 
-input, textarea {
-    border: 5px solid white; 
-    width: 96%;
-    color: #fff;
-    font-size: 16px;
-    -webkit-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    -moz-box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    box-shadow: 
-      inset 0 0 8px  rgba(0,0,0,0.1),
-            0 0 16px rgba(0,0,0,0.1); 
-    padding: 15px;
-    background: rgba(255,255,255,0.5);
-    margin: 0 0 10px 0;
+
+.gallery-title-wrapper {
+    height: 50px;
+    position: relative;
+}
+.gallery-line {
+    background-image: url("../images/line-spacer.png");
+    float: left;
+    height: 17px;
+    position: relative;
+    top: 15px;
+    width: 320px;
+}
+.gallery-line.lg {
+    width: 275px;
+}
+.gallery-title {
+   float: left;
+    font-family: "Montserrat";
+    font-size: 22px;
+    position: relative;
+    text-align: center;
+    top: 15px;
+    width: 320px;
 }
 
-input[type=button] {
-    color: #fff;
+
+.womens.driving .gallery-title {
+    width: 360px;
+}
+.womens.driving .gallery-line {
+    width: 300px;
+}
+
+.womens.winter .gallery-title {
+    width: 360px;
+}
+.womens.winter .gallery-line {
+    width: 300px;
+}
+
+.womens.mittens .gallery-title {
+    width: 360px;
+}
+.womens.mittens .gallery-line {
+    width: 300px;
+}
+
+.womens.touchscreen .gallery-title {
+    width: 460px;
+}
+.womens.touchscreen .gallery-line {
+    width: 250px;
+}
+
+
+.gallery-title.lg {
+    width: 410px;
+}
+.cat-item {
+    float:left;
+    width:300px;
+    height:290px;
+    background-color: #ffffff;
+    margin:15px;
+}
+
+.cat-gallery-wrapper {position: relative;}
+.cat-gallery-wrapper * {position: relative;}
+.cat-image-wrapper {
+       height: 216px;
+    text-align: center;
+    width: 100%;
+}
+
+
+.cat-gallery-wrapper .gallery-row .cat-item:first-child {
+    margin-left:0px;
+
+}
+.cat-gallery-wrapper .gallery-row .cat-item:last-child {
+    margin-right:0px;
+
+}
+
+.cat-item img {
+
+}
+
+.cat-item  div{
+    font-family: "Arial";
+    font-weight: bold;
+    font-size:14px;
+    color: #696255;
+}
+
+.cat-item div.sub-title {
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.cat-item .cat-gallery-info {
+      background-color: #e2e0d9;
+    bottom: 0;
+    height: auto;
+    padding: 10px;
+    position: absolute;
+    width: 280px;
+}
+
+
+.cat-item .cat-item-title {
+
+}
+
+.static-left {
+    float: left;
+    margin-right: 50px;
+    width: 310px;
+}
+
+.static-right {
+    float: left;
+    padding-top: 113px;
+    width: 490px;
+}
+
+.static-left .cat-info-wrapper {
+    background-color: #968c7a;
+    height: 500px;
+    margin-left: 0;
+    width: 250px;
+}
+.static-left .cat-inner-wrapper {
+    border:none;
+}
+
+.static-left.purchase {
+    width: 480px;
+}
+.static-right.purchase {
+    padding: 0px;
+    width:400px;
+}
+
+.static-right.purchase .cat-info-wrapper {
+    background-color: #968c7a;
+    height: 500px;
+    margin-left: 0;
+    width: 400px;
+}
+.static-right.purchase .cat-inner-wrapper {
+    border:none;
+}
+
+
+.contact-block {
+ margin-top:10px;
+}
+
+.contact-block .block-header {
+
+color: #c5c0b4;
+font-family: "Montserrat";
+font-size:17px;
+
+}
+.contact-block p {
+
+}
+
+.contact-form-wrapper {
+
+}
+
+.form-left {
+    float: left;
+    position: relative;
+    top: -4px;
+    width: 210px;
+}
+.form-right {
+    float:left;
+    width:275px;
+}
+
+.static-wrapper .box-info {
+       color: #edecee;
+    margin-left: -125px;
+    width: 250px;
+
+}
+
+.static-wrapper.purchase .box-info {
+    color: #edecee;
+    margin-left: -170px;
+    width: 350px;
+}
+
+input, textarea {
+  color: #000;
+    font-size: 16px;
+    height: 18px;
+    margin: 0 0 10px;
+    width: 96%;
+}
+
+textarea {
+    height:112px;
+}
+
+.captcha-wrapper {
+    margin-top:15px;
+}
+.contact-btn {
+
+background-color: #696255;
     cursor: pointer;
+    height: 33px;
+    left: 50%;
+    margin-left: -47px;
+    margin-top: 15px;
+    position: relative;
+    text-align: center;
+    width: 95px;
+
+}
+
+.contact-btn img {
+    margin-top:11px;
+}
+.contact-btn:hover {
+
+background-color: #897f6f;
+}
+.contact-label {
     font-family: "Montserrat";
-    font-size: 18px;
-    margin-left: 20px;
-    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 35px;
+    color:#fff;
+}
+.contact-label span {
+    font-weight: normal;
+}
+.contact-input {
+
+}
+
+.contact-block a {
+    margin:0px !important;
 }

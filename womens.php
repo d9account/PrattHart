@@ -15,12 +15,11 @@
         <div class="cat-info-wrapper">
             <div class="cat-inner-wrapper">
                 <div class="deer"></div>
-                <div class="cat-title">womens gloves</div>
+                <div class="cat-title"><img src="images/womens-gloves-title.png"></div>
                 <div class="lg-spacer"></div>
                 <div class="lg-spacer"></div>
                 <div class="lg-spacer"></div>
-                <div class="white-header">the perfect glove</div>
-                <div class="white-header large">is a beautiful thing</div>
+                <div class="box-info-title"><img src="images/womens-info-title.png"></div>
                  <div class="white-spacer"></div>
                 <div class="box-info">
                    Classic good looks that never go out of style<br/>and are built to last. This is a sample copy.

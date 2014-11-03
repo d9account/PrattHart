@@ -7,11 +7,11 @@
 
         <div class="main-category">
             <div class="mens"><a href="mens.html">MENS</a></div>
-            <div class="middle"> <div class="deer"></div>
+            <div class="middle"> <!--<div class="deer"></div>
                     <div class="white-header">LOOK GREAT. FOREVER.</div>
                     <div class="box-info">
                         What good is fashion<br/>if it's not built to last?<br/>At Pratt & Hart, our<br/>reputation for timeless<br/>good looks is matched<br/>only by our tradition of<br/>quality craftmanship. 
-                    </div></div>
+                    </div>--></div>
             <div class="womens"><a href="womens.html">WOMENS</a></div>
         </div>
 
@@ -51,14 +51,18 @@
             	</div>
             </div>
             <div class="middle">
-            
+            <div class="nav-link retailer" onclick="window.location='/retailer.html'"></div><div class="nav-link shop" onclick="window.location='/purchase.html'"></div><div class="nav-link store" onclick="window.location='http://leatherglovesonline.com'"></div>
+            <!--
              <div class="white-header">WHERE TO BUY</div>
                     <div class="box-info">
                     
-                       Find Prett & Hart gloves at<br/>fine retailers across the<br/>country, or shop now at<br/><a href="http://www.leatherglovesonline.com" class="box-link">LeatherGlovesOnline.com</a>
+                       Find Pratt & Hart gloves at<br/>fine retailers across the<br/>country, or shop now at<br/><a href="http://www.leatherglovesonline.com" class="box-link">LeatherGlovesOnline.com</a>
                         <div class="white-spacer"></div>
                         <a href="retailer.html">Find a Retailer</a><a href="shop.html">Shop Now</a>
                     </div>
+                    -->
+
+                    <div style="display:none;">Find Pratt & Hart gloves at<br/>fine retailers across the<br/>country, or shop now at<br/><a href="http://www.leatherglovesonline.com" class="box-link">LeatherGlovesOnline.com</a></div>
 
             </div>
             <div class="mittens">

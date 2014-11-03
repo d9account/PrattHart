@@ -1,17 +1,17 @@
-<div class="cat-link">
-    <span class="cat-link-title">Men's Winter</span>
+<div class="cat-link" onclick="window.location='mens-winter.html'">
+    <span class="cat-link-title">Winter</span>
     <br/>
-    <a href="mens-winter.html">The Classics</a><span class="arrows">>></span>
+    <a href="javascript:void(0)">The Classics</a><span class="arrows">>></span>
 </div>
 
-<div class="cat-link">
-    <span class="cat-link-title">Men's Driving</span>
+<div class="cat-link" onclick="window.location='mens-driving.html'">
+    <span class="cat-link-title">Driving</span>
     <br/>
-    <a href="mens-driving.html">Hit The Road</a><span class="arrows">>></span>
+    <a href="javascript:void(0)">Hit The Road</a><span class="arrows">>></span>
 </div>
 
-<div class="cat-link right">
-    <span class="cat-link-title">Men's Touchscreen</span>
+<div class="cat-link right" onclick="window.location='mens-touchscreen.html'">
+    <span class="cat-link-title">Touchscreen</span>
     <br/>
-    <a href="mens-touchscreen.html">Gadget-Ready</a><span class="arrows">>></span>
+    <a href="javascript:void(0)">Gadget-Ready</a><span class="arrows">>></span>
 </div>

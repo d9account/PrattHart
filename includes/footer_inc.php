@@ -8,7 +8,7 @@
             <a href="about.html">about</a>
             <a href="mens.html">mens</a>
             <a href="womens.html">womens</a>
-            <a href="craftmanship.html">craftmanship</a>
+            <a href="craftsmanship.html">CRAFTSMANSHIP</a>
             <a href="purchase.html">Shop Online</a>
             <a href="retailer.html">Find a retailer</a>
             <a href="contact.html">contact</a>
